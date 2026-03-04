@@ -1,0 +1,104 @@
+nav {
+    background-color: #002b5c;
+    padding: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #002b5c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+.conteudo, .quest {
+    background-color: black;
+    color: white;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #0067cd;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: purple;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+form {
+    margin-top: 15px;
+}
+
+input, textarea, select {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    background-color: #002b5c;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #001a38;
+}
+
+footer {
+    background-color: #002b5c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

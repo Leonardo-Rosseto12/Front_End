@@ -1,0 +1,35 @@
+body{
+    background: black;
+    color: white;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+h1{
+    color: gold;
+}
+
+section{
+    background: gray;
+    margin: 2% 20% 2% 20%;
+    padding: 1% 2% 1% 2%;
+    text-align: left;
+    border-radius: 20px;
+    align-items: center;
+}
+nav{
+    background: gray;
+    padding: 10px;
+    justify-content: center;
+}
+p{
+    text-align: justify;
+}
+a{
+    margin: 0% 10% 0% 10%;
+    text-decoration: none;
+    color: aqua;
+}
+button{
+    background: aqua;
+    border-radius: 20px;
+}

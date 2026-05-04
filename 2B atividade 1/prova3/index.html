@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Copa do Mundo 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Informações sobre a Copa do Mundo</h1>
+
+    <nav>
+        <a href="#org">Organização</a>
+        <a href="#formato">Formato</a>
+        <a href="#impacto">Impacto</a>
+    </nav>
+
+    <section id="org">
+        <h2>🌍 Organização e Sedes</h2>
+        <p>
+            A Copa do Mundo FIFA de 2026 será a primeira edição realizada em três países: Estados Unidos, Canadá e México.
+            Essa será também a maior Copa da história em número de cidades-sede, com partidas distribuídas por diversas regiões.
+        </p>
+    </section>
+
+    <section id="formato">
+        <h2>⚽ Novo Formato</h2>
+        <p>
+            O torneio contará com 48 seleções, em vez das tradicionais 32. As equipes serão divididas em grupos,
+            aumentando o número total de jogos e dando mais oportunidades para países participarem.
+        </p>
+    </section>
+
+    <section id="impacto">
+        <h2>🏆 Expectativas e Impacto</h2>
+        <p>
+            A edição de 2026 promete ser uma das mais assistidas da história, com grande impacto econômico e cultural.
+            Seleções tradicionais e emergentes devem protagonizar jogos de alto nível.
+        </p>
+    </section>
+
+    <button onclick="mostrarTabelaJogos()">
+        Mostrar Tabela de Jogos
+    </button>
+
+    <script>
+        function mostrarTabelaJogos() {
+    
+            if (document.getElementById("tabela-jogos")) return;
+
+            let img = document.createElement("img");
+
+            img.src = "img/Tabela_Jogos.png";
+            img.alt = "Tabela de Jogos";
+
+            img.id = "tabela-jogos";
+
+            img.style.width = "80%";
+            img.style.marginTop = "20px";
+            img.style.borderRadius = "10px";
+
+            document.body.appendChild(img);
+        }
+    </script>
+
+</body>
+</html>

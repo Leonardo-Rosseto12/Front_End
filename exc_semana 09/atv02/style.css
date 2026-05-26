@@ -1,0 +1,32 @@
+body {
+    background: #0f172a;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    background: #1e1b4b;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #60a5fa;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #312e81;
+    color: white;
+}
